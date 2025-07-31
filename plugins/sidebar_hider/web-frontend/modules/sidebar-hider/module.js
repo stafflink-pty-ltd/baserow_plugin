@@ -1,4 +1,6 @@
-export const metadata = {
-  name: 'Stafflink Sidebar Hider',
-  version: '1.0.0',
+module.exports = function SidebarHiderModule(/* moduleOptions */) {
+  // You can register plugin files here if needed
+  this.nuxt.hook('ready', async (nuxt) => {
+    console.log('Sidebar Hider module loaded')
+  })
 }
