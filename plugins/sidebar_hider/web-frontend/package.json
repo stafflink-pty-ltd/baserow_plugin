@@ -1,0 +1,8 @@
+{
+  "name": "sidebar_hider",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "@nuxtjs/stylelint-module": "^4.1.0"
+  }
+}
